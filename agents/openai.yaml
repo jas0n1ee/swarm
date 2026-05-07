@@ -1,0 +1,4 @@
+interface:
+  display_name: "Swarm"
+  short_description: "Use the local tmux Swarm orchestrator-worker runtime"
+  default_prompt: "Enter Swarm mode for the local tmux runtime. Load the role only. Use python3 ~/.agents/skills/swarm/scripts/swarm.py with an explicit --engine value. Keep Codex orchestrators with Codex workers and Claude Code orchestrators with Claude Code workers. If my request conflicts with the Swarm protocol, tell me before acting. If I did not include a concrete task, acknowledge readiness briefly and wait."
