@@ -75,19 +75,19 @@ Remote-control transports such as the Feishu bridge belong to Everywhere, not to
 For a short escalation from a repo that contains `.everywhere`:
 
 ```bash
-.everywhere/bin/feishu-bridge notify --message "<summary and decision needed>"
+everywhere feishu notify --message "<summary and decision needed>"
 ```
 
 If no binding exists and remote-control escalation is appropriate:
 
 ```bash
-.everywhere/bin/feishu-bridge attach
+everywhere feishu attach
 ```
 
 For a long handoff, write Markdown first and send:
 
 ```bash
-.everywhere/bin/feishu-bridge notify --message-file <path>
+everywhere feishu notify --message-file <path>
 ```
 
 Escalation messages should include the topic, blocker or decision needed, options considered, and exact human input needed next.

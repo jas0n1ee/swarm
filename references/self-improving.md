@@ -75,7 +75,7 @@ Index JSONL shape:
 If remote control is available from a repo with `.everywhere`, send a concise human-facing summary:
 
 ```bash
-.everywhere/bin/feishu-bridge notify --message "[self-improving] <summary>"
+everywhere feishu notify --message "[self-improving] <summary>"
 ```
 
 For long reports, use `--message-file`.
